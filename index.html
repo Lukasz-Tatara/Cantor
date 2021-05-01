@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kantor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="section.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1 class="header__mainHeader"> Witaj w kalkulatorze walutowym</h1>
+        <p class="header__paragraph"> *Kalkulator oblicza aktualne kursy walutowe z dnia 17.04.2021r </p>
+    </header>
+    <section class="section__form js-section">
+        <form class="js-form__cantor" action="" method="GET">
+            <fieldset class="fieldSet">
+                <legend class="legend">Kantor</legend>
+                <p class="legend--paragraph polishValue"><label class="label__text" for="value">PLN<span><input
+                                class="input__field js-enteredValue" required placeholder="Ile masz pieniędzy?"
+                                type="number" min="0"></span></label>zł</p>
+                <p>
+                    <label for="currencySelection">
+                        <span class="form__labelText">
+                            Wybierz walutę na którą chcesz wymienić swoje pieniądza*:
+                        </span>
+                    </label>
+                    <select required class="form__field js-currencyType" name="currencyName">
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="GBP">GBP</option>
+                    </select>
+                </p>
+                <button type="submit" class="button js-button">Przelicz!</button>
+            </fieldset>
+        </form>
+        <p class="result__paragraph">wynik: <span class="js-received_amount"></span></p>
+    </section>
+    <footer class="footer">&copy; Copyright </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+.section__form {
+
+    text-align: center;
+    margin-top: 30px;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(76, 177, 180, 0.753);
+    border-radius: 20px;
+
+}
+
+.js-form__cantor {
+    margin-top: 30px;
+
+}
+
+.form__labelText {
+    width: 80%;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    color: rgb(34, 0, 34);
+}
+
+.form__field {
+    padding: 10px 20px;
+    margin-top: 30px;
+    width: 200px;
+    background-color: rgba(87, 255, 213, 0.699);
+    border: 2px solid black;
+    box-shadow: 0 0 2px 2px white;
+}
+
+
+.form__field:focus {
+    background-color: rgba(10, 170, 130, 0.822);
+    color: rgb(255, 255, 255);
+}
+
+.result__paragraph {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.856);
+    border-radius: 20px;
+    color: white;
+}
+
+.legend {
+    font-size: 40px;
+    color: seagreen;
+    font-family: arial;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.712);
+    border-radius: 10px;
+    letter-spacing: 5px;
+}
+
+.fieldSet {
+    border-color: black;
+}
+
+.fieldset__span {
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: rgba(255, 255, 255, 0.438);
+    box-shadow: 0 0 2px 2px black;
+    padding: 10px;
+    color: red;
+}
+
+.legend--paragraph {
+    font-size: 30px;
+}
+
+.polishValue {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.form__labelText {
+    display: inline-block;
+}
+
+.input__field {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    max-width: 300px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 1px 2px black;
+}
+
+
+
+.button {
+    font-size: 20px;
+    background-color: rgba(46, 139, 86, 0.829);
+    border: none;
+    padding: 10px;
+    color: white;
+    margin: 0 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 2px rgb(0, 0, 0);
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: .3s;
+
+}
+
+.button:hover {
+    background-color: rgb(0, 40, 43);
+    transform: scale(1.1);
+    box-shadow: none;
+    color: rgba(212, 212, 212, 0.842)
+}
+
+.js-received_amount {
+    color: rgb(243, 243, 243);
+    font-weight: bold;
+    padding: 10px;
+}
