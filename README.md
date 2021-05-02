@@ -11,9 +11,9 @@ this tool helps you to convert the value of a currency.
 I heartily invite you to view my website.
 
 ## Technology used on page:
-    -Es6
+    -ES6+
     -HTML
     -BEM
-    -Java Script
+    -CSS
 
 
